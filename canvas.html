@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas Basics</title>
+</head>
+<body>
+	<canvas id="first" width="640" height="480"></canvas>
+
+	<script>
+
+	c = document.getElementById('first');
+	c = c.getContext('2d');
+
+	c.moveTo(100, 100);
+	c.lineTo(200, 100);
+	c.stroke();
+
+	</script>
+</body>
+</html>
